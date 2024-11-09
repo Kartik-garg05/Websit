@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Student Association Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="contact-us" class="contact-us-section">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We’d love to hear from you! Whether you have questions, suggestions, or want to get involved, please feel free to reach out to us.</p>
+            
+            <div class="contact-info">
+                <h2>Our Contact Information</h2>
+                <p><strong>Email:</strong> <a href="mailto:info@studentassociationclub.com">www.skit.ac.in</a></p>
+                <p><strong>Phone:</strong> +123 456 7890</p>
+                <p><strong>Address:</strong> skit jaipur</p>
+            </div>
+            
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="/submit_form" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                    
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="social-media">
+                <h2>Connect with Us</h2>
+                <a href="https://www.facebook.com/studentassociationclub" target="_blank">Facebook</a>
+                <a href="https://www.twitter.com/studentassociationclub" target="_blank">Twitter</a>
+                <a href="https://www.instagram.com/studentassociationclub" target="_blank">Instagram</a>
+                <!-- Add more social links as needed -->
+            </div>
+        </div>
+    </section>
+</body>
+</html>

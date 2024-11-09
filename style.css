@@ -1,0 +1,465 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Professional Navbar Styling */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Professional Navbar Styling */
+header {
+    background-color: #003366;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo */
+  /* Logo */
+  header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;  /* Space between image and text */
+  }
+  
+  header .logo-img {
+    width: 30px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional, for a circular logo */
+  }
+  
+  header h1 {
+    color: white;
+    font-size: 14.3px;
+    font-weight: bold;
+    margin-left: 10px; /* Ensure text has some space from the icon */
+  }
+  
+  
+  /* Navbar Links */
+  
+  header nav {
+    flex-grow: 1;
+    margin-left: 40px;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+  }
+  
+  /* Navbar Links */
+  header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease, outline 0.3s ease; /* Add transition for outline */
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  /* Hover effect on the navbar links */
+  header ul li a:hover {
+    background-color: #ff6600;
+    outline: 3px solid #ff6600;  /* Orange outline on hover */
+    outline-offset: 2px; /* Optional: to give space between the text and outline */
+  }
+  
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    gap: 10px;
+    border: 1px solid #ddd;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 200px;
+    font-size: 0.9rem;
+}
+
+.search-bar button {
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #e65c00;
+}
+
+/* Authentication Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.auth-buttons a {
+    background-color: #ff6600;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.auth-buttons a:hover {
+    background-color: #e65c00;
+}
+
+
+/* Hero Section */
+.hero {
+    background: url('first_banner-transformed.jpeg') no-repeat center center/cover rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: orange;
+}
+
+.btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #e65c00;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.mock-interview{
+    background: url('second_banner.png') no-repeat center center/cover ;
+}
+
+h2 {
+    text-align: center;
+    color: #004d99;
+    margin-bottom: 30px;
+}
+
+/* Card Section */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+}
+
+.card img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #004d99;
+}
+
+.card p {
+    margin: 15px 0;
+}
+
+/* Form Section */
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 15px;
+    display: block;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #004d99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer .socials {
+    margin-top: 10px;
+  }
+  
+  footer .socials a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer .socials a:hover {
+    text-decoration: underline;
+  }
+  
+  .about {
+    padding: 20px;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+  }
+  
+/* Footer Styling */
+.footer {
+    background-color: #434d58;
+    color: #ecf0f1;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo {
+    flex: 1;
+    max-width: 300px;
+    position:relative;
+    align-items: center;
+  }
+  .footer-logo h2{
+    position: relative;
+    left: -20px;
+    color: #e65c00;
+  }
+  .footer-img img{
+    width: 150px;
+    position: relative;
+    top: 30px;
+    left: -50px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+    font-size: 0.9rem;
+  }
+  
+  .footer-links,
+  .footer-contact,
+  .footer-socials {
+    flex: 1;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .footer-socials a img{
+    width: 35px;
+  }
+  
+  .footer-links h3,
+  .footer-contact h3,
+  .footer-socials h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul,
+  .footer-socials ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li,
+  .footer-socials li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links a,
+  .footer-socials a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover,
+  .footer-socials a:hover {
+    color: #3498db;
+  }
+  
+  .footer-socials ul {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .footer-socials i {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-socials i:hover {
+    color: #3498db;
+  }
+  
+  .footer-contact p a {
+    color: #ecf0f1;
+    text-decoration: none;
+  }
+  
+  .footer-contact p a:hover {
+    color: #3498db;
+  }
+
+  .email{
+    display: flex;
+    position: relative;
+  }
+
+  .email img{
+    position: relative;
+    left: 7px;
+  }
+  .email input {
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgb(21, 26, 21);
+    background-color: #333;
+  }
+
+  .email input::placeholder{
+    color: #000000;
+  }
+
+  
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-logo,
+    .footer-links,
+    .footer-contact,
+    .footer-socials {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  
